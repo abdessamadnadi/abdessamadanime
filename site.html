@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Samadanime
+</title>
+<link rel="stylesheet" href="site.css">
+<script src="https://kit.fontawesome.com/e685d9ea6b.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+<div class="heade">
+    <nav>
+    <img src="anime-low-resolution-logo-color-on-transparent-background.png" class="logo" >
+<div>
+    <a class="B"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+    <a class="B"><i class="fa-solid fa-gear"></i></a>
+<a class="B"><i class="fa-solid fa-user"></i></a>
+</div> 
+
+     <ul>
+           <li><a href="more anime.html" class="A">General</a></li>
+             <li><a href="grid"class="A">Anime list</a></li>
+           <li><a href="#"class="A">News</a></li>
+           <li><a href="#" class="A">Manga</a></li>
+
+        </ul>
+    </nav>
+ 
+    <div class="select">
+    
+        <select class="C">
+            <option>classification of Anime</option>
+           <option>romantic</option>
+           <option>chonin</option>
+           <option>Horor</option>
+           <option>Samurai</option>
+           <option>phsycho</option>
+        </select>
+
+        <select class="C">
+            <option>Type</option>
+           <option>Movie</option>
+           <option>Tv</option>
+           <option>ONA</option>
+           <option>OVA</option>
+           <option>Speciam</option>
+
+        </select>
+         <select class="C">
+            <option>Class</option>
+           <option>translated by  japannese</option>
+           <option>translated by english</option>
+           <option>translated by arabic</option>
+           <option>translated by french</option>
+           <option>koreon</option>
+
+        </select> <select class="C">
+            <option >Season</option>
+           <option>Summer 1993</option>
+           <option>Summer1994</option>
+           <option>Winter1994</option>
+           <option>Summer1995</option>
+           <option>Winter 1997</option>
+
+        </select>   
+</div>
+</div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="demon.png" style="width:100%">
+      <div class="text">Demon Slayer</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Design sans titre(6).png" style="width:100%">
+      <div class="text">demon slayer</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Design sans titre(7).png" style="width:100%">
+      <div class="text">akatsuki</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+
+
+
+    <div class="mydev">
+        <button class="anime-list">
+            مسلسلات أنمي مترجمة
+        </button>
+    </div>
+      
+       
+
+  
+ 
+  
+
+
+
+
+
+<div class="grid">
+
+    <div class="profile">
+<img class="the-cat" src="poster-Hunter-x-Hunter-2011--5f0871ba17043.png">
+    <p class="oliver">
+       Hunter x Hunter
+    </p>
+  
+    </div>
+   
+   <div class="profile">
+    <img class="the-cat" src="poster-Death-Note-5f08e11d431b6.png">
+    
+        <p class="oliver">
+           Death Note
+        </p>
+       </div>
+
+    <div class="profile">
+        <img class="the-cat" src="Youkoso-Jitsuryoku-Shijou-Shugi-no-Kyoushitsu-e-413x559.jpg">
+        
+            <p class="oliver">
+               The classromm of the elite
+            </p>
+  </div>
+
+  <div class="profile">
+    <img class="the-cat" src="poster-Naruto-5f09d48314004.png">
+        <p class="oliver">
+           Naruto
+        </p>
+      
+        </div>
+       
+       <div class="profile">
+        <img class="the-cat" src="Boruto-Naruto-Next-Generations-Next-Arc-413x559.jpg">
+            <p class="oliver">
+               Boruto
+            </p>
+           </div>
+    
+        <div class="profile">
+            <img class="the-cat" src="Naruto-Shippuuden-413x559.png">
+            
+                <p class="oliver">
+                   Naruto shippuden
+                </p>
+      </div>
+
+      
+    <div class="profile">
+        <img class="the-cat" src="https://www.witanime.best/uploads/posters/jujutsu-kaisen-tv-poster-animelek.png ">
+        
+            <p class="oliver">
+              Jijutsu Kaisen
+            </p>
+  </div>
+
+  <div class="profile">
+    <img class="the-cat" src="poster-Golden-Time-6064ca03b6265.jpg">
+        <p class="oliver">
+           Golden Time
+        </p>
+      
+        </div>
+       
+       <div class="profile">
+        <img class="the-cat" src="https://www.witanime.best/uploads/posters/poster-Boku-no-Kokoro-no-Yabai-Yatsu-64299d6e11df1.jpg">
+        
+            <p class="oliver">
+                boku no kokoro no yabai yatsu
+            </p>
+           </div>
+    
+        <div class="profile">
+            <img class="the-cat" src="Toradora-413x559.jpg">
+            
+                <p class="oliver">
+                    Toradora
+                </p>
+      </div>
+      <div class="profile">
+          <img class="the-cat" src="Yahari-Ore-no-Seishun-Love-Comedy-wa-Machigatteiru.-Zoku-scaled-413x559.jpg">
+              <p class="oliver">
+                Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku
+              </p>
+    </div>
+  
+    <div class="profile">
+      <img class="the-cat" src="One-Piece-413x559.jpg">
+          <p class="oliver">
+            One piece
+          </p>
+        
+          </div>
+         
+         <div class="profile">
+          <img class="the-cat" src="Tokyo-Ghoul-re-2nd-Season-scaled-413x559.jpg">
+          
+              <p class="oliver">
+                 Tokyo ghoul 
+              </p>
+             </div>
+      
+          <div class="profile">
+              <img class="the-cat" src="Tokyo-Revengers-scaled-413x559.jpg">
+                  <p class="oliver">
+                     Tokyo revenger
+                  </p>
+        </div>
+        
+    <div class="profile">
+        <img class="the-cat" src="Tokyo-Revengers-Seiya-Kessen-hen-413x559.jpg">
+            <p class="oliver">
+               Tokyo revenger 2nd
+            </p>
+  </div>
+
+  <div class="profile">
+    <img class="the-cat" src="Kimetsu-no-Yaiba-Katanakaji-no-Sato-hen-413x559.png">
+        <p class="oliver">
+            Kimetsu no Yaiba: Katanakaji no Sato-hen
+        </p>
+      
+        </div>
+       
+       <div class="profile">
+        <img class="the-cat" src="Yumemiru-Danshi-wa-Genjitsushugisha-413x559.jpg">
+        
+            <p class="oliver">
+               OliverYumemiru Danshi wa Genjitsushugisha
+            </p>
+           </div>
+    
+        <div class="profile">
+            <img class="the-cat" src="Kimi-wa-Houkago-Insomnia-413x559.jpg">
+                <p class="oliver">
+                    Kimi wa Houkago Insomnia
+                </p>
+      </div>
+      <div class="profile">
+          <img class="the-cat" src="Suzume-no-Tojimari-scaled-413x559.jpg">
+          
+              <p class="oliver">
+                Suzume no Tojimari
+              </p>
+    </div>
+  
+    <div class="profile">
+      <img class="the-cat" src="My-Home-Hero-413x559.jpg">
+          <p class="oliver">
+            My Home Hero
+          </p>
+        
+          </div>
+         
+         <div class="profile">
+          <img class="the-cat" src="Little-Busters-Refrain-413x559.png">
+              <p class="oliver">
+                 Little busters refrain
+              </p>
+             </div>
+      
+          <div class="profile">
+              <img class="the-cat" src="Mushoku-Tensei-II-Isekai-Ittara-Honki-Dasu-413x559.jpg">
+              
+                  <p class="oliver">
+                  Mushoku Tensei II: Isekai Ittara Honki Dasu</p>
+        </div>
+        <div class="profile">
+            <img class="the-cat" src="Horimiya-Piece-413x559.jpg">
+                <p class="oliver">
+                    Horimiya: Piece
+                </p>
+              
+                </div>
+               
+               <div class="profile">
+                <img class="the-cat" src="Mononogatari-2nd-Season-413x559.png">
+                
+                    <p class="oliver">
+                        Mononogatari 2nd Season
+                    </p>
+                   </div>
+            
+                <div class="profile">
+                    <img class="the-cat" src="Watashi-no-Shiawase-na-Kekkon-413x559.jpg">
+                    
+                        <p class="oliver">
+                         Watashi no shiawase na kekkon
+                        </p>
+              </div>
+                  
+               
+               <div class="profile">
+                <img class="the-cat" src="Jigokuraku-413x559.jpg">
+                
+                    <p class="oliver">
+Jigokuraku                    </p>
+                   </div>
+            
+                <div class="profile">
+                    <img class="the-cat" src="Mashle-413x559.png">
+                    
+                        <p class="oliver">
+Mashle                        </p>
+              </div>
+              <div class="profile">
+                <img class="the-cat" src="Dr.-Stone-New-World-413x559.jpg">
+                    <p class="oliver">
+                       Dr.stone
+                    </p>
+                  
+                    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mydev">
+        <a class="anime-movie" href="more anime.html">
+            أفلام أنمي
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="grida">
+
+    <div class="profile">
+<img class="the-cat" src="poster-Hunter-x-Hunter-2011--5f0871ba17043.png">
+    <p class="oliver">
+       Hunter x Hunter
+    </p>
+  
+    </div>
+   
+   <div class="profile">
+    <img class="the-cat" src="poster-Death-Note-5f08e11d431b6.png">
+    
+        <p class="oliver">
+           Death Note
+        </p>
+       </div>
+
+    <div class="profile">
+        <img class="the-cat" src="Youkoso-Jitsuryoku-Shijou-Shugi-no-Kyoushitsu-e-413x559.jpg">
+        
+            <p class="oliver">
+               The classromm of the elite
+            </p>
+  </div>
+
+  <div class="profile">
+    <img class="the-cat" src="poster-Naruto-5f09d48314004.png">
+        <p class="oliver">
+           Naruto
+        </p>
+      
+        </div>
+       
+       <div class="profile">
+        <img class="the-cat" src="Boruto-Naruto-Next-Generations-Next-Arc-413x559.jpg">
+            <p class="oliver">
+               Boruto
+            </p>
+           </div>
+    
+        <div class="profile">
+            <img class="the-cat" src="Naruto-Shippuuden-413x559.png">
+            
+                <p class="oliver">
+                   Naruto shippuden
+                </p>
+      </div>
+
+      
+    <div class="profile">
+        <img class="the-cat" src="https://www.witanime.best/uploads/posters/jujutsu-kaisen-tv-poster-animelek.png ">
+        
+            <p class="oliver">
+              Jijutsu Kaisen
+            </p>
+  </div>
+
+  <div class="profile">
+    <img class="the-cat" src="poster-Golden-Time-6064ca03b6265.jpg">
+        <p class="oliver">
+           Golden Time
+        </p>
+      
+        </div>
+       
+       <div class="profile">
+        <img class="the-cat" src="https://www.witanime.best/uploads/posters/poster-Boku-no-Kokoro-no-Yabai-Yatsu-64299d6e11df1.jpg">
+        
+            <p class="oliver">
+                boku no kokoro no yabai yatsu
+            </p>
+           </div>
+           <div class="profile">
+            <img class="the-cat" src="poster-Golden-Time-6064ca03b6265.jpg">
+                <p class="oliver">
+                   Golden Time
+                </p>
+              
+                </div>
+               
+               <div class="profile">
+                <img class="the-cat" src="https://www.witanime.best/uploads/posters/poster-Boku-no-Kokoro-no-Yabai-Yatsu-64299d6e11df1.jpg">
+                
+                    <p class="oliver">
+                        boku no kokoro no yabai yatsu
+                    </p>
+                   </div>
+
+                   <div class="profile">
+                    <img class="the-cat" src="https://www.witanime.best/uploads/posters/jujutsu-kaisen-tv-poster-animelek.png ">
+                    
+                        <p class="oliver">
+                          Jijutsu Kaisen
+                        </p>
+              </div>
+    
+</div>
+
+<div class="feet">
+    
+        <ul>
+<li><a href="#" class="a"> samadanime|</a></li>
+<li>    <a href="#" class="a"> contact us|</a>
+</li>
+<li>    <a href="#" class="a"> infos</a>
+</li>
+        </ul>
+        <div>
+            <a class="youtube" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a class="twitter" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcompose%2Ftweet"><i class="fa-brands fa-twitter"></i></a>
+            <a class="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="Facebook" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+        </div>
+<p class="p">  Abdessamadanime جميع الحقوق محفوظة لموقع   | Abdessamadanime
+</p>
+        </p>
+    
+
+</div>
+      
+
+ 
+
+
+    </body>
+</html>
